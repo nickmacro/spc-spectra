@@ -113,8 +113,8 @@ class File:
 
             # fix data types if necessary
             self.fnpts = int(self.fnpts)  # of points should be int
-            self.fexp = ord(self.fexp)
-
+            self.fexp = struct.unpack('b', self.fexp)[0]
+            
             self.ffirst = float(self.ffirst)
             self.flast = float(self.flast)
 
