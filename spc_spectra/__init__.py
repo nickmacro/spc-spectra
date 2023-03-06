@@ -2,7 +2,6 @@
 Module for reading, exploring and converting SPC spectroscopic binary data in Python.
 """
 
-from .spc import File
 
 __author__ = "Rohan Isaac"
 __author_email__ = "rohan_isaac@yahoo.com"

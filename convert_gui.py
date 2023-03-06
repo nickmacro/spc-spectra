@@ -13,7 +13,7 @@ from __future__ import division, absolute_import, unicode_literals, print_functi
 from Tkinter import Tk, StringVar, DISABLED, NORMAL, END, W, E, N, S
 from ttk import Frame, Label, Button, Radiobutton, Entry
 import tkFileDialog
-import spc
+import spc_spectra as spc
 import os
 
 
