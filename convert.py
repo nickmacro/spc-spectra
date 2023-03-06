@@ -8,7 +8,7 @@ author: Rohan Isaac
 from __future__ import division, absolute_import, unicode_literals, print_function
 import argparse
 import os
-import spc
+import spc_spectra as spc
 
 
 def main():

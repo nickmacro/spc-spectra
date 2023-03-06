@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 from __future__ import absolute_import, unicode_literals, print_function, division
 import os
-import spc
+import spc_spectra as spc
 
 tfile = 0
 tpass = 0

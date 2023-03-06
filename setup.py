@@ -2,15 +2,19 @@
 
 from distutils.core import setup
 
-import spc
+from spc_spectra import __version__ as spc_version
+from spc_spectra import __doc__ as spc_doc
+from spc_spectra import __version__ as spc_version
+from spc_spectra import __author__ as spc_author
+from spc_spectra import __author_email__ as spc_author_email
 
 setup(name='spc-spectra',
-      version=spc.__version__,
-      description=spc.__doc__,
-      author=spc.__author__,
-      author_email=spc.__author_email__,
+      version=spc_version,
+      description=spc_doc,
+      author=spc_author,
+      author_email=spc_author_email,
       url='https://github.com/NickMacro/spc-spectra',
       download_url='https://github.com/NickMacro/spc-spectra/archive/0.4.0.tar.gz',
-      packages=['spc-spectra'],
+      packages=['spc_spectra'],
       classifiers=[],
       )
